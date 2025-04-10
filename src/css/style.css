@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'robotoCondensed';
+    src: url('RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: left;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: 'robotoCondensed', serif;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+header {
+    width: 100vw;
+    height: 15vh;
+    box-sizing: border-box;
+    background-color: #1d0702;
+    background: linear-gradient(to left, #381007, #140401, #0c0201);
+
+    color: #692612;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #9e482e;
+    font-size: 20px;
+}
+
+body {
+    background-image: url(imagebackground.png);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    height: 90vh;
+    width: 85vw;
+}
