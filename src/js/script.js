@@ -22,15 +22,14 @@ if (quantEstoque <= 5) {
 }
 
 // bloco onde o computador vai ler a idade da safra dos vinhos
-else{
-    if(safraVinho < 2015){
-        alert("Visualize o console!");
-        console.log("Vinho antigo");
-    } else if(safraVinho < 2019){
-        alert("Visualize no console!");
-        console.log("Vinho amadurecido");
-    } else{
-        alert("Visualize o console!");
-        console.log("Vinho jovem");
-    }
-} 
+if(safraVinho < 2015){
+    alert("Visualize o console!");
+    console.log("Vinho antigo");
+} else if(safraVinho < 2019){
+    alert("Visualize no console!");
+    console.log("Vinho amadurecido");
+} else{
+    alert("Visualize o console!");
+    console.log("Vinho jovem");
+}
+
